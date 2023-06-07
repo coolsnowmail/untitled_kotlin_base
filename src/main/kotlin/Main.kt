@@ -1,19 +1,13 @@
 import spaceships.SpaceShip
 import java.io.File
 
+
 fun main(args: Array<String>) {
-    val file = File("text.txt")
-    file.writeToFileAndSend()
-    //val ship1 = SpaceShip("ship1", 500)
-    //ship1.switchToWarpMode()
-    //ship1.runSystemDiagnostic()
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
+    println("ddewdewdrew")
+    var moneyCase = Case<Long>(1000000)
+    println(moneyCase.get())
+    moneyCase.add(1000)
+    println(moneyCase.get())
 }
-fun File.writeToFileAndSend() {
-    val message = "some message"
-    createNewFile()
-    writeText(message)
-    println("message: \"$message\" added to file $name and send ")
-}
+
 
